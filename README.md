@@ -16,8 +16,6 @@ pip install -r requirements.txt
 export PYTHONPATH="$PWD/src"
 ```
 
-Weights & Biases is optional. Training runs without it by default; add `--wandb` to enable logging.
-
 ## Checkpoints
 
 Pretrained paper checkpoints are available in the repository `checkpoints/` folder. Use those checkpoints directly for evaluation and figure reproduction, or retrain with the commands below to regenerate them.
@@ -82,6 +80,7 @@ Each run writes:
 - `checkpoint_best.pth`
 
 The best checkpoint is selected by validation  weighted CRPS.
+Wandb is optional add `--wandb` to enable logging.
 
 ## Evaluation
 
