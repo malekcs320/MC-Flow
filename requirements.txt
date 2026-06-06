@@ -1,0 +1,8 @@
+matplotlib>=3.8
+numpy>=1.24
+pandas>=2.0
+PyYAML>=6.0
+seaborn>=0.13
+torch>=2.1
+tqdm>=4.66
+wandb>=0.16
