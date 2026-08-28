@@ -2,11 +2,6 @@
 
 This repository contains the code, configurations, and evaluation scripts for reproducing the MC-Flow district-heating forecasting experiments.
 
-## Visualization of the training architecture
-
-<img width="911" height="368" alt="image" src="https://github.com/user-attachments/assets/3e03dd86-a7f0-4358-9d15-03bba3fd8694" />
-
-
 ## Environment
 
 ```bash
